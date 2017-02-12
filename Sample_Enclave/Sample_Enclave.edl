@@ -1,0 +1,11 @@
+enclave {
+    trusted {
+        /* define ECALLs here. */
+		public void enclaveStrcatBuf([in, out]char* src, size_t lenSrc, [in, out]char* dest, size_t lenDest);    
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+    
+    };
+};
