@@ -172,6 +172,7 @@
       </PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Security.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\Sample_Enclave\Sample_Enclave.edl">
