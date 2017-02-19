@@ -1,6 +1,5 @@
 #include "Sample_Enclave_t.h"
 #include "sgx_trts.h"
-//#include <windows.h>
 #include <string.h>
 
 void enclaveStrcatBuf(char* src, size_t lenSrc, char* dest, size_t lenDest)
@@ -15,8 +14,10 @@ void enclaveStrcatBuf(char* src, size_t lenSrc, char* dest, size_t lenDest)
 	}
 	else
 	{
-		strncat(dest, src, lenDest - strlen(dest) - 31);
-		strncat(dest, " can't append all src to dest\n", 31);
-		ocall_print_string("can't append all src to dest\n");
+		if (lenDest > 31)
+		{
+			strncpy(dest, "from enclave - can't append src to dest - DANGEROUS STATE\n", 59);
+		}
+		ocall_print_string("from enclave - can't append src to dest\n");
 	}
 }
