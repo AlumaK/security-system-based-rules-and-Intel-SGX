@@ -56,7 +56,7 @@ static sgx_status_t SGX_CDECL sgx_enclaveStrcatBuf(void* pms)
 			goto err;
 		}
 
-		memcpy(_in_src, _tmp_src, _len_src);
+		memcpy(_in_src, _tmp_src, strlen(_tmp_src) + 1);
 	}
 	if (_tmp_dest != NULL) {
 		_in_dest = (char*)malloc(_len_dest);
@@ -65,16 +65,16 @@ static sgx_status_t SGX_CDECL sgx_enclaveStrcatBuf(void* pms)
 			goto err;
 		}
 
-		memcpy(_in_dest, _tmp_dest, _len_dest);
+		memcpy(_in_dest, _tmp_dest, strlen(_tmp_dest) + 1);
 	}
 	enclaveStrcatBuf(_in_src, _len_src, _in_dest, _len_dest);
 err:
 	if (_in_src) {
-		memcpy(_tmp_src, _in_src, _len_src);
+		memcpy(_tmp_src, _in_src, strlen(_in_src) + 1);
 		free(_in_src);
 	}
 	if (_in_dest) {
-		memcpy(_tmp_dest, _in_dest, _len_dest);
+		memcpy(_tmp_dest, _in_dest, strlen(_in_dest) + 1);
 		free(_in_dest);
 	}
 

@@ -1,8 +1,3 @@
-﻿  Creating untrusted proxy/bridge routines
-  StateMachine.cpp
-  Security.cpp
-  Application.cpp
-  Generating Code...
-  Sample_Enclave_u.c
+﻿  Application.cpp
   Application.vcxproj -> C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\Simulation\Application.exe
   Application.vcxproj -> C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\Simulation\Application.pdb (Full PDB)

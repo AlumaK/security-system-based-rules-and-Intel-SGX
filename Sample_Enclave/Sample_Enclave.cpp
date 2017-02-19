@@ -15,8 +15,8 @@ void enclaveStrcatBuf(char* src, size_t lenSrc, char* dest, size_t lenDest)
 	}
 	else
 	{
-		strncat(dest, src, lenDest - strlen(dest) - 1);
-		strncat(dest, '\0', 1);
+		strncat(dest, src, lenDest - strlen(dest) - 31);
+		strncat(dest, " can't append all src to dest\n", 31);
 		ocall_print_string("can't append all src to dest\n");
 	}
 }

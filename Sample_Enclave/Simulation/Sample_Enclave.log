@@ -1,4 +1,4 @@
-﻿  Sample_Enclave_t.c
+﻿  Sample_Enclave.cpp
      Creating library C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\Simulation\Sample_Enclave.lib and object C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\Simulation\Sample_Enclave.exp
   Sample_Enclave.vcxproj -> C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\Simulation\Sample_Enclave.dll
   Sample_Enclave.vcxproj -> C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\Simulation\Sample_Enclave.pdb (Full PDB)
