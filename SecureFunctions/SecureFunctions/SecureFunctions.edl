@@ -1,0 +1,16 @@
+enclave {
+    from "sgx_tstdc.edl" import *;
+
+    trusted {
+        /* define ECALLs here. */
+		public void enclaveStrcpy([in, string] char* src, [in, out, string] char* dest, size_t lenDest);
+		public void enclaveDivideByZero([in] int* num1, [in] int* num2, [out] int* result);
+		public void enclaveGetArrayIndex([in] int* array, int index, [out] int* value);
+		public void enclaveSetArrayIndex([in, out] int* array, int index, [in] int* value);
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+		void ocall_print_string([in, string] const char *str);
+    };
+};
