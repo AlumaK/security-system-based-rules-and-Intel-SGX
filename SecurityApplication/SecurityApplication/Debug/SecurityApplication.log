@@ -1,3 +1,6 @@
 ﻿  SecurityApplication.cpp
-  SecurityApplication.vcxproj -> C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\SecurityApplication\Debug\SecurityApplication.exe
-  SecurityApplication.vcxproj -> C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\SecurityApplication\Debug\SecurityApplication.pdb (Full PDB)
+  ParseFile.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Dictionary.cpp
+LINK : fatal error LNK1168: cannot open C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\SecurityApplication\Debug\SecurityApplication.exe for writing

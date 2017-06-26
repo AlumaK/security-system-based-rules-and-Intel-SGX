@@ -1,0 +1,8 @@
+﻿  ParseFile.cpp
+  Generating code
+  3 of 421 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    19 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SecurityApplication.vcxproj -> C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\SecurityApplication\Release\SecurityApplication.exe
+  SecurityApplication.vcxproj -> C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\SecurityApplication\Release\SecurityApplication.pdb (Full PDB)
