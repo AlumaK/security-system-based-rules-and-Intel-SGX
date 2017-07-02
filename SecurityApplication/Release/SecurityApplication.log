@@ -1,0 +1,63 @@
+﻿  stdafx.cpp
+  Dictionary.cpp
+  ParseFile.cpp
+ParseFile.cpp(271): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+ParseFile.cpp(281): warning C4018: '<': signed/unsigned mismatch
+ParseFile.cpp(300): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+ParseFile.cpp(374): warning C4018: '<': signed/unsigned mismatch
+  SecurityApplication.cpp
+Dictionary.obj : error LNK2001: unresolved external symbol ___std_terminate
+Dictionary.obj : error LNK2001: unresolved external symbol __imp__memmove
+Dictionary.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter_noinfo_noreturn
+ParseFile.obj : error LNK2001: unresolved external symbol __imp____std_exception_copy
+ParseFile.obj : error LNK2001: unresolved external symbol __imp____std_exception_destroy
+ParseFile.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter_noinfo
+ParseFile.obj : error LNK2001: unresolved external symbol __imp___errno
+ParseFile.obj : error LNK2001: unresolved external symbol __imp__fgetc
+ParseFile.obj : error LNK2001: unresolved external symbol __imp__fputc
+ParseFile.obj : error LNK2001: unresolved external symbol __imp__ungetc
+ParseFile.obj : error LNK2001: unresolved external symbol __imp____acrt_iob_func
+ParseFile.obj : error LNK2001: unresolved external symbol __imp____stdio_common_vfprintf
+ParseFile.obj : error LNK2001: unresolved external symbol __imp__fflush
+ParseFile.obj : error LNK2001: unresolved external symbol __imp__setvbuf
+ParseFile.obj : error LNK2001: unresolved external symbol __imp__fsetpos
+ParseFile.obj : error LNK2001: unresolved external symbol __imp___fseeki64
+ParseFile.obj : error LNK2001: unresolved external symbol __imp__fgetpos
+ParseFile.obj : error LNK2001: unresolved external symbol __imp__fwrite
+ParseFile.obj : error LNK2001: unresolved external symbol __imp___unlock_file
+ParseFile.obj : error LNK2001: unresolved external symbol __imp___lock_file
+ParseFile.obj : error LNK2001: unresolved external symbol __imp___get_stream_buffer_pointers
+ParseFile.obj : error LNK2001: unresolved external symbol __imp__fclose
+SecurityApplication.obj : error LNK2001: unresolved external symbol __imp__getchar
+msvcprt.lib(locale0_implib.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+MSVCRT.lib(new_scalar.obj) : error LNK2001: unresolved external symbol __callnewh
+MSVCRT.lib(new_scalar.obj) : error LNK2001: unresolved external symbol _malloc
+MSVCRT.lib(delete_scalar.obj) : error LNK2001: unresolved external symbol _free
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___vcrt_initialize
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___vcrt_uninitialize
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___vcrt_uninitialize_critical
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___vcrt_thread_attach
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___vcrt_thread_detach
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __seh_filter_dll
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __is_c_termination_complete
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __configure_narrow_argv
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __initialize_narrow_environment
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __initialize_onexit_table
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __register_onexit_function
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __execute_onexit_table
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __crt_atexit
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __crt_at_quick_exit
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___acrt_initialize
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___acrt_uninitialize
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___acrt_uninitialize_critical
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___acrt_thread_attach
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol ___acrt_thread_detach
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __cexit
+MSVCRT.lib(ehvecdtr.obj) : error LNK2001: unresolved external symbol _terminate
+MSVCRT.lib(utility_desktop.obj) : error LNK2001: unresolved external symbol _terminate
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol ___std_exception_copy
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol ___std_exception_destroy
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol __CxxThrowException@8
+MSVCRT.lib(utility_desktop.obj) : error LNK2001: unresolved external symbol _memset
+MSVCRT.lib(_chandler4gs_.obj) : error LNK2001: unresolved external symbol __except_handler4_common
+C:\Users\aluma\Documents\מכללה\שנה ד\פרויקט גמר\security-system-based-rules-and-Intel-SGX\SecurityApplication\SecurityApplication\Release\SecurityApplication.exe : fatal error LNK1120: 53 unresolved externals
