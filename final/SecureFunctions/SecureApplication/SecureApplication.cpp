@@ -49,7 +49,7 @@ int32_t foo(char * str2) {
 	int32_t v2 = 0;
 	printf("My stack looks like:\n%p\n%p\n%p\n%p\n%p\n% p\n\n", (char *)v2, str2);
 	int32_t str = 0;
-	strcpy((char *)&str, str2);
+	//strcpy((char *)&str, str2);
 	enclaveStrcpy(eid, (char *)&str, str2);
 	puts((char *)&str);
 	printf("Now the stack looks like:\n%p\n%p\n%p\n%p\n%p\n%p\n\n", str2, str2);
